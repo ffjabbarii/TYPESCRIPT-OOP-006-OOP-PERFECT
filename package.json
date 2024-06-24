@@ -13,7 +13,9 @@
     "build": "babel src --out-dir built --extensions '.ts,.tsx'",
     "tsc": "tsc",
     "test": "node built/main.js",
-    "clean": "rm -rf built node_modules"
+    "clean": "rm -rf built node_modules",
+    "bun": "bun run src/main.ts",
+    "run-it-fred": "bun run src/main.ts"
   },
   "dependencies": {},
   "devDependencies": {
